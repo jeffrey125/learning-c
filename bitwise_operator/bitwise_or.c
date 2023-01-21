@@ -6,9 +6,9 @@ int main()
   unsigned int b = 13; // 0000 1101
   int result = 0; 
 
-  // You evaluate each bit position with AND (Just like how the AND works in any programming language) e.g. 0 & 1 = 0
+  // You evaluate each bit position with OR (Just like how the OR works in any programming language) e.g. 0 & 1 = 1
 
-  result = a & b; // 0000 1100 = 12
+  result = a | b; // 0011 1101 = 61
 
   printf("Total Result: %d", result);
 }

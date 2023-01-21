@@ -6,9 +6,9 @@ int main()
   unsigned int b = 13; // 0000 1101
   int result = 0; 
 
-  // You evaluate each bit position with AND (Just like how the AND works in any programming language) e.g. 0 & 1 = 0
+  // You evaluate each bit position with XOR (Copies only 1 operand but cannot be both)
 
-  result = a & b; // 0000 1100 = 12
+  result = a ^ b; // 0011 0001 = 49
 
   printf("Total Result: %d", result);
 }
