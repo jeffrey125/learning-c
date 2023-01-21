@@ -3,10 +3,12 @@
 int main()
 {
   unsigned int x = 60; // 0011 1100
- 
+
+  printf("\nSize of int in the system is %d bytes\n", sizeof(int));
+
   int result, shiftValue;
 
-  // NOTES Most int size has 4bytes (32 bits) or you can check it manually by the keyword sizeof
+  // NOTES Most int size has 4bytes (32 bits) or you can check it manually by the sizeof operator
   
   // To easily visualize the shifting you can plot it on a 32bit and shift it accordingly
   
@@ -18,7 +20,7 @@ int main()
   // Shift to the left by 2 
   shiftValue = 2;
   result = x << shiftValue; // 1111 0000 = 240
-  printf("Shift to the left by %d: %d\n", shiftValue,result);
+  printf("\nShift to the left by %d: %d\n", shiftValue,result);
   
   // Shift to the left by 4 
   shiftValue = 4;
