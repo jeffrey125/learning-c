@@ -1,6 +1,6 @@
 # C Practice
 
-- My Progress on learning C all by watching the udemy course that I bought called [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/)
+- My Progress and Notes on learning C
 
 ## Progress
 
@@ -8,7 +8,9 @@
 - Basic Concepts, Variables and Data Types ✅
 - Operators
   - Basic Operators ✅
-  - Bitwise Operators
+  - Bitwise Operators ✅
+  - Type conversion (Cast Operator) ✅
+  - sizeof operator ✅
 - Control Flow
 - Arrays
 - Functions
@@ -17,3 +19,7 @@
 - Structures
 - File IO
 - Standard C Library
+
+### Resources
+
+- [C Programming For Beginners - Master the C Language](https://www.udemy.com/course/c-programming-for-beginners-/) - Credits to Jason Fedin
