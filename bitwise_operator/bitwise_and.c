@@ -11,4 +11,6 @@ int main()
   result = a & b; // 0000 1100 = 12
 
   printf("Total Result: %d", result);
+
+  return 0;
 }

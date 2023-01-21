@@ -11,4 +11,6 @@ int main()
   result = a | b; // 0011 1101 = 61
 
   printf("Total Result: %d", result);
+
+  return 0;
 }

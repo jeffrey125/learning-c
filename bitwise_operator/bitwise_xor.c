@@ -11,4 +11,6 @@ int main()
   result = a ^ b; // 0011 0001 = 49
 
   printf("Total Result: %d", result);
+
+  return 0;
 }
