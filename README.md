@@ -11,10 +11,10 @@
   - Bitwise Operators ✅
   - Type conversion (Cast Operator) ✅
   - sizeof operator ✅
-- Control Flow
-- Arrays
-- Functions
-- Character Strings
+- Control Flow ✅
+- Arrays ✅
+- Functions ✅
+- Character Strings ✅
 - Pointers
 - Structures
 - File IO
