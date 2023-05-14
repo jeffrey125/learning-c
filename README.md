@@ -15,10 +15,10 @@
 - Arrays ✅
 - Functions ✅
 - Character Strings ✅
-- Pointers
-- Structures
-- File IO
-- Standard C Library
+- Pointers ✅
+- Structures ✅
+- File IO ✅
+- Standard C Library ✅
 
 ### Resources
 
