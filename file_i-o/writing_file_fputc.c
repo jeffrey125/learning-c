@@ -7,6 +7,12 @@ int main()
 
   fp = fopen("write_char.txt", "w+");
 
+  if (fp == NULL)
+  {
+    perror("File Access Error");
+    return (-1);
+  }
+
   // Write ANSI characters from 33 to 100
   for (ch = 33; ch <= 100; ch++)
   {
